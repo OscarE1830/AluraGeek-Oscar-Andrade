@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "ca12",
+      "nombre": "Bromelia",
+      "precio": "$ 48.000",
+      "imagen": "https://nuxt-buck-product-v.s3.amazonaws.com/vji8a5jyjz-vivero-el-arrendajo-bromelia-diana-m-0.jpeg"
+    },
+    {
+      "id": "eab4",
+      "nombre": "Orquidea",
+      "precio": "$ 58.000",
+      "imagen": "https://nuxt-buck-product-v.s3.amazonaws.com/gb7zipeer1q-vivero-el-arrendajo-orqu-dea-phalaenopsis-de-1-tallo-floral-0.jpeg"
+    },
+    {
+      "id": "5913",
+      "nombre": "Calathea Makoyana",
+      "precio": "$ 18.000",
+      "imagen": "https://alsolarvivero.com/cdn/shop/files/2_d407c8b3-6d99-4f45-86fe-c1a3b3c680fa.png?v=1696367802&width=600"
+    },
+    {
+      "id": "334a",
+      "nombre": "Anturio Martillado",
+      "precio": "$ 39.800",
+      "imagen": "https://www.viverotierranegra.com/wp-content/uploads/2022/11/Rojo-scaled-500x500.jpg"
+    },
+    {
+      "id": "c217",
+      "nombre": "Peperomia Sandia",
+      "precio": "$ 10.800",
+      "imagen": "https://www.viverotierranegra.com/wp-content/uploads/2022/11/Mesa-de-trabajo-1-copia-30-500x500.jpg"
+    },
+    {
+      "id": "3857",
+      "nombre": "Suculenta Cebra",
+      "precio": "$ 0",
+      "imagen": "https://www.viverotierranegra.com/wp-content/uploads/2023/03/8a2ae942c3f5b2e5d0501a1b57f00543.jpg"
+    },
+    {
+      "id": "a68f",
+      "nombre": "Cactus Gracilis",
+      "precio": "$ 15.000",
+      "imagen": "https://sembramos.com.co/wp-content/uploads/2018/06/especie-de-cactus-mammillaria-gracilis-600x548.jpg"
+    },
+    {
+      "id": "075a",
+      "nombre": "Cactus Utah",
+      "precio": "$ 15.000",
+      "imagen": "https://sembramos.com.co/wp-content/uploads/2018/06/especies-de-cactus-utah-600x548.jpg"
+    },
+    {
+      "id": "9653",
+      "nombre": "Mostera",
+      "precio": "$ 40.000",
+      "imagen": "https://speedy.uenicdn.com/60f525ff-95a1-4081-98d9-9944dbff8d4e/c512_a/image/upload/v1630466327/business/5b8b6a82-dd22-4d02-96d6-60fcc287b53a.jpg"
+    }
+  ]
+}

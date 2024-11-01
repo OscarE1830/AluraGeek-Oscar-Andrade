@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="*">
+    <title>Alura Geek - Oscar Andrade</title>
+    <link rel="shortcut icon" href="./assets/agregar-productos.avif" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header class="encabezado">
+        <img class="logo" src="../assets/AluraGeek-logo.png" alt="Logo Alura Geek">
+        <div class="encabezado__buscar">
+            <input type="search" placeholder="Buscar" id="buscar" class="buscar__input" data-busqueda>
+            <button class="buscar__boton" data-boton-busqueda></button>
+        </div>
+    </header>
+    
+    <main>
+        
+        <section class="productos">
+            <h1 class="titulo">MIS PRODUCTOS:</h1><br>
+                <aside class="productos_contenedor-card" alt="productos ecommerce" data-lista>
+                    <div class="card">
+                        <img class="card_img-producto" src="./assets/producto1.png" alt="imagen de producto" />
+                        <div class="card-container--info">
+                        <p class="nombre-producto">Nombre</p>
+                        <div class="card-container--value">
+                            <p>$ 00.00</p>
+                            <img class="card_img-icono"src="./assets/trash-icon.png" alt="icono de eliminar" />
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="card_img-producto" src="./assets/producto2.png" alt="imagen de producto" />
+                        <div class="card-container--info">
+                        <p class="nombre-producto">Nombre</p>
+                        <div class="card-container--value">
+                            <p>$ 00.00</p>
+                            <img class="card_img-icono" src="./assets/trash-icon.png" alt="icono de eliminar" />
+                        </div>
+                        </div>
+                    </div>
+
+                </aside>
+        </section>
+        
+        <section class="agregar_producto">
+            <form class="agregar_producto-datos" action="" method="post" data-formulario>
+                <div class="img_agregar-producto">
+                    <img  src="../assets/agregar-productos.avif" alt="Imagen Comercio">
+                    <h2 class="titulo Tit-prod-agr">AGREGAR <br>PRODUCTO:</h2>
+                </div>    
+                <input id="nombre" class="tomar_datos Nombre" type="text" placeholder="Nombre..." required data-nombre />
+                <input id="precio" class="tomar_datos Precio" type="text" placeholder="Precio..." required data-precio />
+                <input id="imagen" class="tomar_datos Imagen" type="url" placeholder="Inserta la URL de la imagen" required data-imagen />
+                <div class="form-buttons">
+                    <input class="btn-enviar" type="submit" value="Enviar" />
+                    <input class="btn-limpiar" type="reset" value="Limpiar" />
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer >
+        <div class="footer-items">
+        <img class="logo" src="../assets/AluraGeek-logo.png" alt="Logo Alura Geek">
+        <p>Desarollado por Oscar Andrade - 2024</p>
+        <ul class="redes">
+            <li class="redes__img"><a href="https://github.com/OscarE1830" target="_blank"><img src="assets/github.svg" alt="Github"></a></li>
+            <li class="redes__img"><a href="https://www.linkedin.com/in/oscar-eduardo-andrade-reyes" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn"></a></li>
+            <li class="redes__img"><a href="https://app.aluracursos.com/user/oscareduardo1830" target="_blank"><img src="assets/alura_icon.svg" alt="Alura"></a></li>
+        </ul>
+    </div>
+    </footer>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/buscarProducto.js" type="module"></script>
+    <script src="./js/validaciones.js"></script>
+</body>
+</html>
