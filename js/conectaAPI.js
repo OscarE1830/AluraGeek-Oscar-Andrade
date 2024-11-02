@@ -1,5 +1,5 @@
 async function listaProductos(){
-    const conexion = await fetch("http://localhost:3001/productos",{
+    const conexion = await fetch("https://67257550c39fedae05b4cc31.mockapi.io/productos",{
         method:"GET",
         headers:{
         "Content-type":"application/json"
@@ -13,7 +13,7 @@ async function listaProductos(){
 }
 
 async function crearProducto(nombre,precio,imagen){ 
-    const conexion= await fetch("http://localhost:3001/productos?",{
+    const conexion= await fetch("https://67257550c39fedae05b4cc31.mockapi.io/productos?",{
     method:"POST",
     headers:{
         "Content-type":"application/json"
@@ -34,7 +34,7 @@ async function crearProducto(nombre,precio,imagen){
 
 async function buscarProducto(referencia){
     try{
-        const conexion = await fetch(`http://localhost:3001/productos?nombre_like=${referencia}`)
+        const conexion = await fetch(`https://67257550c39fedae05b4cc31.mockapi.io/productos?nombre_like=${referencia}`)
         if (!conexion.ok) throw new Error("Error al conectar con la API");
 
         const conexionConvertida = await conexion.json();
@@ -49,7 +49,7 @@ async function buscarProducto(referencia){
 
 async function eliminarProducto(id) {
     try {
-        const conexion = await fetch(`http://localhost:3001/productos/${id}`, {
+        const conexion = await fetch(`https://67257550c39fedae05b4cc31.mockapi.io/productos/${id}`, {
             method: "DELETE",
             headers: { "Content-Type": "application/json" }
         });
