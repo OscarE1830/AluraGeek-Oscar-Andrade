@@ -23,12 +23,17 @@ Este Challenger tiene como objetivo el manejo de modulos utilizando JSON Server 
 
 ### Base de datos **json-server**
 
-Para cargar la base de datos de json-server debe ejecutar en una terminal el siguiente comando, y así podrá visualizar en pantalla los productos:
+Para cargar la base de datos de json-server de manera local, debe ejecutar en una terminal el siguiente comando, y así podrá visualizar en pantalla los productos:
 
 >```
 > npx json-server --watch db.json --port 3001
 >```
 
+Sin embargo, en este link podrá visualizar en linea el demo del proyecto con los productos cargados ya que está la base de datos en Mockapi:
+
+https://alura-geek-oscar-andrade.vercel.app/
+
+---
 ### Eliminar un producto
 
 En la parte inferior derecha de la tarjeta del producto, se podrá ver el icono de <img src="./assets/trash-icon.png" width="15" alt="icono eliminar"> que selelccionado activará la ventana de eliminar producto, y al confirmar procede a ejecutar la acción.
